@@ -4,7 +4,7 @@ namespace SistemaConta.Presentation.Models.Account
 {
     public class LoginViewModel
     {
-        [EmailAddress(ErrorMessage ="Isso não é um email.")]
+        [EmailAddress(ErrorMessage ="Isso é um email invalido.")]
         [Required(ErrorMessage ="Informe seu email!!1")]
         public string? Email { get; set; }
 
